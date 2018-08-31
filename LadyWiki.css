@@ -1,0 +1,74 @@
+body {
+    background: #0e0b47;
+    color: lightgrey;
+    margin: 0px;
+    padding: 0px;
+}
+
+#toppage { 
+    background-image: url("http://blog.oxforddictionaries.com/wp-content/uploads/stack-of-books1.jpg");
+    color: lightgrey;  
+    font-weight: bold; 
+}
+
+#banner {
+    margin: 0 auto;
+    padding: 25px; 
+    text-align: center;
+}
+
+#searchbox {
+    margin: 25 auto;
+    padding: 0px 0px 15px 0px; 
+    text-align: center;
+}
+
+#box {
+    font-size: 20px;
+}
+
+#search {
+    background: none;
+    color: lightgrey;
+    border:none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#random {
+    margin: 0 auto;
+    padding: 5px; 
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    background: white;
+    color: #0e0b47;
+}
+
+#linkOne {
+    text-decoration: none;
+}
+
+#results {
+    list-style-type: none;
+}
+
+.name a {
+   text-decoration: underline;
+   color: lightgrey;
+   font-size: 25px; 
+   font-weight: bold; 
+}
+
+.name a hover {
+    cursor: pointer;
+}
+
+.name a visited {
+    color: darkslategrey;
+}
+
+.definition {
+    font-size: 20px;
+    padding: 5px 10px;
+}
